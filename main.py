@@ -65,9 +65,9 @@ FOLDER_URLS = [
 ]
 
 BATCH_SIZE = 500
-MAX_RETRIES = 3
-RETRY_DELAY = 1  # seconds
-FOLDER_CREATION_DELAY = 2  # seconds to wait after creating a folder
+MAX_RETRIES = 5
+RETRY_DELAY = 2  # seconds
+FOLDER_CREATION_DELAY = 4  # seconds to wait after creating a folder
 
 # --------------------------------------------------------------------------- #
 # 2. Clients
